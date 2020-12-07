@@ -1,0 +1,228 @@
+<!doctype html><html lang=zh-cn><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><meta http-equiv=x-ua-compatible content="IE=edge, chrome=1"><title>Markdown语法 - Fan's blog</title><meta name=Description content="记录一下Markdown的语法，遗忘时可以参考。"><meta property="og:title" content="Markdown语法"><meta property="og:description" content="记录一下Markdown的语法，遗忘时可以参考。"><meta property="og:type" content="article"><meta property="og:url" content="http://fmx789.github.io/posts/markdown-grammer.html/"><meta property="og:image" content="http://fmx789.github.io/images/logo.png"><meta property="article:published_time" content="2020-11-30T20:14:17+08:00"><meta property="article:modified_time" content="2020-11-30T20:14:17+08:00"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="http://fmx789.github.io/images/logo.png"><meta name=twitter:title content="Markdown语法"><meta name=twitter:description content="记录一下Markdown的语法，遗忘时可以参考。"><meta name=application-name content="Fan's blog"><meta name=apple-mobile-web-app-title content="Fan's blog"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=http://fmx789.github.io/posts/markdown-grammer.html/><link rel=prev href=http://fmx789.github.io/posts/Aliyun-Server-setup-Guide.html/><link rel=next href=http://fmx789.github.io/posts/shortcode-grammer.html/><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Markdown语法","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/fmx789.github.io\/posts\/markdown-grammer.html\/"},"genre":"posts","keywords":"Markdown, ruby, font-awesome","wordcount":2018,"url":"http:\/\/fmx789.github.io\/posts\/markdown-grammer.html\/","datePublished":"2020-11-30T20:14:17+08:00","dateModified":"2020-11-30T20:14:17+08:00","license":"This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) License.","publisher":{"@type":"Organization","name":"KevinFan","logo":"http:\/\/fmx789.github.io\/images\/logo.png"},"author":{"@type":"Person","name":"KevinFan"},"description":"记录一下Markdown的语法，遗忘时可以参考。"}</script></head><body header-desktop=fixed header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':('light'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'light'==='dark'))&&document.body.setAttribute('theme','dark');</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/ title="Fan's blog"><img class="lazyload logo" src=/svg/loading.min.svg data-src=/images/logo.png data-srcset="/images/logo.png, /images/logo.png 1.5x, /images/logo.png 2x" data-sizes=auto alt=/images/logo.png title=/images/logo.png>KevinFan</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/posts/><i class="fas fa-fw fa-archive"></i>归档 </a><a class=menu-item href=/tags/><i class="fas fa-fw fa-tag"></i>标签 </a><a class=menu-item href=/categories/><i class="fas fa-fw fa-th"></i>分类 </a><a class=menu-item href=/about/><i class="fas fa-fw fa-at"></i>关于 </a><a class=menu-item href=/links/><i class="fas fa-fw fa-link"></i>友链 </a><a class=menu-item href=https://github.com/fmx789 title=GitHub rel="noopener noreffer" target=_blank><i class="fab fa-github fa-fw"></i>GitHub </a><a class=menu-item href=/search/><i class="fas fa-fw fa-search"></i>搜索 </a><span class="menu-item delimiter"></span><a href=javascript:void(0); class="menu-item language" title=选择语言>简体中文<i class="fas fa-chevron-right fa-fw"></i>
+<select class=language-select id=language-select-desktop onchange="location=this.value;"><option value=/posts/markdown-grammer.html/ selected>简体中文</option></select>
+</a><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题><i class="fas fa-adjust fa-fw"></i></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/ title="Fan's blog"><img class="lazyload logo" src=/svg/loading.min.svg data-src=/images/logo.png data-srcset="/images/logo.png, /images/logo.png 1.5x, /images/logo.png 2x" data-sizes=auto alt=/images/logo.png title=/images/logo.png>KevinFan</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><a class=menu-item href=/posts/><i class="fas fa-fw fa-archive"></i>归档</a><a class=menu-item href=/tags/><i class="fas fa-fw fa-tag"></i>标签</a><a class=menu-item href=/categories/><i class="fas fa-fw fa-th"></i>分类</a><a class=menu-item href=/about/><i class="fas fa-fw fa-at"></i>关于</a><a class=menu-item href=/links/><i class="fas fa-fw fa-link"></i>友链</a><a class=menu-item href=https://github.com/fmx789 title=GitHub rel="noopener noreffer" target=_blank><i class="fab fa-github fa-fw"></i>GitHub</a><a class=menu-item href=/search/><i class="fas fa-fw fa-search"></i>搜索</a><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题>
+<i class="fas fa-adjust fa-fw"></i></a><a href=javascript:void(0); class=menu-item title=选择语言>简体中文<i class="fas fa-chevron-right fa-fw"></i>
+<select class=language-select onchange="location=this.value;"><option value=/posts/markdown-grammer.html/ selected>简体中文</option></select></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>目录</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animated flipInX">Markdown语法</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw"></i>KevinFan</a></span>&nbsp;<span class=post-category>收录于 <a href=/categories/Markdown/><i class="far fa-folder fa-fw"></i>Markdown</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2020-11-30>2020-11-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 2018 字&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 5 分钟&nbsp;<span id=/posts/markdown-grammer.html/ class=leancloud_visitors data-flag-title=Markdown语法>
+<i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+</span>&nbsp;</div></div><div class="details toc" id=toc-static kept><div class="details-summary toc-title"><span>目录</span>
+<span><i class="details-icon fas fa-angle-right"></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#基本语法>基本语法</a><ul><li><a href=#标题>标题</a></li><li><a href=#注释>注释</a></li><li><a href=#水平线>水平线</a></li><li><a href=#内联html元素>内联HTML元素</a></li><li><a href=#字体强调>字体强调</a></li><li><a href=#引用>引用</a></li><li><a href=#列表>列表</a><ul><li><a href=#无序列表>无序列表</a></li><li><a href=#有序列表>有序列表</a></li><li><a href=#任务列表>任务列表</a></li></ul></li><li><a href=#代码>代码</a><ul><li><a href=#行内代码>行内代码</a></li><li><a href=#围栏代码块>围栏代码块</a></li></ul></li><li><a href=#语法高亮>语法高亮</a></li><li><a href=#表格>表格</a></li><li><a href=#链接>链接</a><ul><li><a href=#基本链接>基本链接</a></li><li><a href=#添加标题的链接>添加标题的链接</a></li><li><a href=#文内链接>文内链接</a></li></ul></li><li><a href=#脚注>脚注</a></li><li><a href=#图片>图片</a></li></ul></li><li><a href=#主题拓展语法>主题拓展语法</a><ul><li><a href=#ruby注释>ruby注释</a></li><li><a href=#分数>分数</a></li><li><a href=#font-awesome图标库>Font Awesome图标库</a></li><li><a href=#转义字符>转义字符</a></li></ul></li><li><a href=#参考链接>参考链接</a></li></ul></nav></div></div><div class=content id=content><h2 id=基本语法>基本语法</h2><h3 id=标题>标题</h3><p>从<code>h1</code>到<code>h6</code>的标题在每个级别依次加一个<code>#</code>：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=gh># h1 标题
+</span><span class=gh></span><span class=gu>## h2 标题
+</span><span class=gu>### h3 标题
+</span><span class=gu>#### h4 标题
+</span><span class=gu>##### h5 标题
+</span><span class=gu>###### h6 标题
+</span></code></pre></td></tr></table></div></div><p>对应Typora里的快捷键是<code>ctrl</code>+<code>1</code>~<code>6</code>。</p><div class="details admonition note open"><div class="details-summary admonition-title"><i class="icon fas fa-pencil-alt fa-fw"></i>标题 ID<i class="details-icon fas fa-angle-right fa-fw"></i></div><div class=details-content><div class=admonition-content><p>要添加自定义标题 ID，请在与标题相同的行中将自定义 ID 放在花括号中：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=gu>### 一个很棒的标题 {#custom-id}
+</span></code></pre></td></tr></table></div></div></div></div></div><h3 id=注释>注释</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=c>&lt;!--
+</span><span class=c>这是一段注释
+</span><span class=c>--&gt;</span>
+</code></pre></td></tr></table></div></div><p><strong>不能</strong>看到以下的注释：</p><h3 id=水平线>水平线</h3><ul><li><code>___</code>：三个连续的下划线</li><li><code>---</code>：三个连续的破折号</li><li><code>***</code>：三个连续的星号</li></ul><p>输出效果为：</p><hr><hr><hr><h3 id=内联html元素>内联HTML元素</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-html data-lang=html><span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;class&#34;</span><span class=p>&gt;</span>
+    这是 <span class=p>&lt;</span><span class=nt>b</span><span class=p>&gt;</span>HTML<span class=p>&lt;/</span><span class=nt>b</span><span class=p>&gt;</span>
+<span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</code></pre></td></tr></table></div></div><h3 id=字体强调>字体强调</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>*斜体*或_斜体_
+**粗体**或__粗体__
+<span class=gd>~~删除线~~</span>
+<span class=gs>***加粗和斜体**</span>*
+<span class=gd>~~**删除线和加粗**~~</span>
+<span class=gd>~~*删除线和斜体*~~</span>
+<span class=gd>~~***加粗, 斜体和删除线***~~</span>
+</code></pre></td></tr></table></div></div><p>输出效果为：</p><p><em>斜体</em> <em>斜体</em> <strong>粗体</strong> <strong>粗体</strong> <del>删除线</del></p><p><em><strong>加粗和斜体</strong></em> <del><strong>删除线和加粗</strong></del> <del><em>删除线和斜体</em></del> <del><em><strong>加粗, 斜体和删除线</strong></em></del></p><h3 id=引用>引用</h3><p>在要引用的任何文本之前添加 <code>></code>：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=k>&gt; </span><span class=ge>这是引用的文本
+</span></code></pre></td></tr></table></div></div><blockquote><p>这是引用的文本</p></blockquote><p>引用可以嵌套：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=k>&gt; </span><span class=ge>第一层
+</span><span class=ge></span>&gt;&gt; 第二层
+</code></pre></td></tr></table></div></div><blockquote><p>第一层</p><blockquote><p>第二层</p></blockquote></blockquote><h3 id=列表>列表</h3><h4 id=无序列表>无序列表</h4><p>可以使用以下任何符号来表示无序列表中的项：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=k>*</span> 一项内容
+	<span class=k>*</span> 一项内容
+<span class=k>-</span> 一项内容
++ 一项内容
+</code></pre></td></tr></table></div></div><p>输出效果为:</p><ul><li>一项内容<ul><li>一项内容</li></ul></li></ul><ul><li>一项内容</li></ul><ul><li>一项内容</li></ul><p>对应Typora里的快捷键是<code>ctrl</code>+<code>shift</code>+<code>]</code>。</p><h4 id=有序列表>有序列表</h4><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=k>1.</span> 第一项
+<span class=k>2.</span> 第二项
+<span class=k>3.</span> 第三项
+</code></pre></td></tr></table></div></div><p>输出效果为:</p><ol><li>第一项</li><li>第二项</li><li>第三项</li></ol><p>对应Typora里的快捷键是<code>ctrl</code>+<code>shift</code>+<code>[</code>。</p><h4 id=任务列表>任务列表</h4><p>任务列表使你可以创建带有复选框的列表。
+要创建任务列表，请在任务列表项之前添加破折号 (<code>-</code>) 和带有空格的方括号 (<code>[ ]</code>)。要选择一个复选框，请在方括号之间添加 x (<code>[x]</code>)。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=k>- [x]</span> Write the press release
+<span class=k>- [ ]</span> Update the website
+<span class=k>- [ ]</span> Contact the media
+</code></pre></td></tr></table></div></div><p>输出效果为:</p><ul><li><i class="far fa-check-square fa-fw"></i>Write the press release</li><li><i class="far fa-square fa-fw"></i>Update the website</li><li><i class="far fa-square fa-fw"></i>Contact the media</li></ul><h3 id=代码>代码</h3><p>Typora启用代码块的快捷键是<code>ctrl</code>+<code>shift</code>+<code>k</code>。</p><h4 id=行内代码>行内代码</h4><p>用 <code>`</code> 包装行内代码段。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>在这个例子中, <span class=sb>`&lt;section&gt;&lt;/section&gt;`</span> 会被包裹成 <span class=gs>**代码**</span>。
+</code></pre></td></tr></table></div></div><p>输出效果为:</p><p>在这个例子中，<code>&lt;section>&lt;/section></code> 会被包裹成 <strong>代码</strong>。</p><p><a id=block></a></p><h4 id=围栏代码块>围栏代码块</h4><p>使用 &ldquo;围栏&rdquo; <code>```</code> 来生成一段带有语言属性的代码块。类似的有shortcode里的<a href=/posts/shortcode-grammer.html/#highlight rel>highlight</a>。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>Sample text here...
+</code></pre></td></tr></table></div></div><h3 id=语法高亮>语法高亮</h3><p>要激活它，只需在第一个代码 &ldquo;围栏&rdquo; 之后直接添加你要使用的语言的文件扩展名，比如<code>```js</code>，语法高亮显示将自动应用于渲染的 HTML 中。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-js data-lang=js><span class=nx>grunt</span><span class=p>.</span><span class=nx>initConfig</span><span class=p>({</span>
+  <span class=nx>assemble</span><span class=o>:</span> <span class=p>{</span>
+    <span class=nx>options</span><span class=o>:</span> <span class=p>{</span>
+      <span class=nx>assets</span><span class=o>:</span> <span class=s1>&#39;docs/assets&#39;</span><span class=p>,</span>
+      <span class=nx>data</span><span class=o>:</span> <span class=s1>&#39;src/data/*.{json,yml}&#39;</span><span class=p>,</span>
+      <span class=nx>helpers</span><span class=o>:</span> <span class=s1>&#39;src/custom-helpers.js&#39;</span><span class=p>,</span>
+      <span class=nx>partials</span><span class=o>:</span> <span class=p>[</span><span class=s1>&#39;src/partials/**/*.{hbs,md}&#39;</span><span class=p>]</span>
+    <span class=p>},</span>
+    <span class=nx>pages</span><span class=o>:</span> <span class=p>{</span>
+      <span class=nx>options</span><span class=o>:</span> <span class=p>{</span>
+        <span class=nx>layout</span><span class=o>:</span> <span class=s1>&#39;default.hbs&#39;</span>
+      <span class=p>},</span>
+      <span class=nx>files</span><span class=o>:</span> <span class=p>{</span>
+        <span class=s1>&#39;./&#39;</span><span class=o>:</span> <span class=p>[</span><span class=s1>&#39;src/templates/pages/index.hbs&#39;</span><span class=p>]</span>
+      <span class=p>}</span>
+    <span class=p>}</span>
+  <span class=p>}</span>
+<span class=p>};</span>
+</code></pre></td></tr></table></div></div><p><strong>Hugo</strong> 文档中的 <a href=https://gohugo.io/content-management/syntax-highlighting/ target=_blank rel="noopener noreffer">语法高亮页面</a> 介绍了有关语法高亮的更多信息，包括语法高亮的 shortcode。</p><ul><li><code>linenos</code>：配置行号。有效值是<code>true</code>，<code>false</code>，<code>table</code>，或<code>inline</code>。<code>false</code>如果将其配置为在站点配置中启用，则将关闭行号。 <code>table</code> 将提供友好的复制粘贴代码块。</li><li><code>hl_lines</code>：列出要突出显示的一组行号或行号范围。</li><li><code>linenostart=199</code>：从199开始行号计数。</li><li><code>anchorlinenos</code>：在行号上配置锚点。有效值为<code>true</code>或<code>false</code>;</li><li><code>lineanchors</code>：为行号上的锚点配置前缀。将带有后缀<code>-</code>，因此使用选项链接到行号1<code>lineanchors=prefix</code>会将锚点添加<code>prefix-1</code>到页面。</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>​```js {linenos=table,hl_lines=[8,&#34;14-15&#34;],linenostart=1}
+grunt.initConfig({
+  assemble: {
+    options: {
+      assets: &#39;docs/assets&#39;,
+      data: &#39;src/data/*.{json,yml}&#39;,
+      helpers: &#39;src/custom-helpers.js&#39;,
+      partials: [&#39;src/partials/**/*.{hbs,md}&#39;]
+    },
+    pages: {
+      options: {
+        layout: &#39;default.hbs&#39;
+      },
+      files: {
+        &#39;./&#39;: [&#39;src/templates/pages/index.hbs&#39;]
+      }
+    }
+  }
+};
+​```
+</code></pre></td></tr></table></div></div><p>输出效果为：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=hl><span class=lnt> 8
+</span></span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=hl><span class=lnt>14
+</span></span><span class=hl><span class=lnt>15
+</span></span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-js data-lang=js><span class=nx>grunt</span><span class=p>.</span><span class=nx>initConfig</span><span class=p>({</span>
+  <span class=nx>assemble</span><span class=o>:</span> <span class=p>{</span>
+    <span class=nx>options</span><span class=o>:</span> <span class=p>{</span>
+      <span class=nx>assets</span><span class=o>:</span> <span class=s1>&#39;docs/assets&#39;</span><span class=p>,</span>
+      <span class=nx>data</span><span class=o>:</span> <span class=s1>&#39;src/data/*.{json,yml}&#39;</span><span class=p>,</span>
+      <span class=nx>helpers</span><span class=o>:</span> <span class=s1>&#39;src/custom-helpers.js&#39;</span><span class=p>,</span>
+      <span class=nx>partials</span><span class=o>:</span> <span class=p>[</span><span class=s1>&#39;src/partials/**/*.{hbs,md}&#39;</span><span class=p>]</span>
+<span class=hl>    <span class=p>},</span>
+</span>    <span class=nx>pages</span><span class=o>:</span> <span class=p>{</span>
+      <span class=nx>options</span><span class=o>:</span> <span class=p>{</span>
+        <span class=nx>layout</span><span class=o>:</span> <span class=s1>&#39;default.hbs&#39;</span>
+      <span class=p>},</span>
+      <span class=nx>files</span><span class=o>:</span> <span class=p>{</span>
+<span class=hl>        <span class=s1>&#39;./&#39;</span><span class=o>:</span> <span class=p>[</span><span class=s1>&#39;src/templates/pages/index.hbs&#39;</span><span class=p>]</span>
+</span><span class=hl>      <span class=p>}</span>
+</span>    <span class=p>}</span>
+  <span class=p>}</span>
+<span class=p>};</span>
+</code></pre></td></tr></table></div></div><h3 id=表格>表格</h3><p>Typora快捷键为<code>ctrl</code>+<code>T</code>。</p><table><thead><tr><th>选项</th><th>描述</th></tr></thead><tbody><tr><td>data</td><td>数据</td></tr><tr><td>txt</td><td>文本</td></tr></tbody></table><p><a id=link-test></a></p><h3 id=链接>链接</h3><h4 id=基本链接>基本链接</h4><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=p>&lt;</span><span class=nt>https:</span><span class=err>//</span><span class=na>fmx789</span><span class=err>.</span><span class=na>github</span><span class=err>.</span><span class=na>io</span><span class=p>&gt;</span>
+</code></pre></td></tr></table></div></div><p><a href=https://fmx789.github.io>https://fmx789.github.io</a></p><h4 id=添加标题的链接>添加标题的链接</h4><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>[<span class=nt>我的博客</span>](<span class=na>https://fmx789.github.io</span>)
+</code></pre></td></tr></table></div></div><p><a href=https://fmx789.github.io target=_blank rel="noopener noreffer">我的博客</a></p><p>对应Typora里的快捷键是<code>ctrl</code>+<code>k</code>。</p><h4 id=文内链接>文内链接</h4><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>[<span class=nt>跳转到链接</span>](<span class=na>#link-test</span>)
+</code></pre></td></tr></table></div></div><p>同时在跳转到的地方加个标签，注意标签不要跟带<code>#</code>的标题放在同一行，如果是非标题则无所谓：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown><span class=p>&lt;</span><span class=nt>a</span> <span class=na>id</span><span class=o>=</span><span class=s>&#34;link-test&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>a</span><span class=p>&gt;</span>
+<span class=gu>### 链接
+</span></code></pre></td></tr></table></div></div><p><a href=#link-test rel>跳转到“链接”标题</a></p><div class="details admonition note open"><div class="details-summary admonition-title"><i class="icon fas fa-pencil-alt fa-fw"></i>注意<i class="details-icon fas fa-angle-right fa-fw"></i></div><div class=details-content><div class=admonition-content><p>如果要链接不同的文章，请查看<a href=/posts/shortcode-grammer.html/#cross-link rel>此处</a>。</p><p>如果要鼠标悬停时显示提示信息，请查看<a href=/posts/shortcode-grammer.html/#content-link rel>此处</a>。</p></div></div></div><h3 id=脚注>脚注</h3><p>脚注使你可以添加注释和参考，而不会使文档正文混乱。</p><p>创建脚注时，在添加脚注引用的位置会出现带有链接的上标编号。</p><p>单击链接便会跳至页面底部的脚注内容。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>脚注编号：
+这是一个数字脚注[^1].
+这是一个英文脚注[^label]
+脚注内容：
+[^1]: 这是一个数字脚注
+[^one]: 这是一个带标签的脚注
+</code></pre></td></tr></table></div></div><p>这是一个数字脚注<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup>.
+这是一个英文脚注<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup></p><h3 id=图片>图片</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>![Alt text][id]
+</code></pre></td></tr></table></div></div><p>更丰富的图片功能详见本文<a href=/posts/shortcode-grammer.html/#shortcode-img rel>此处</a>。</p><h2 id=主题拓展语法>主题拓展语法</h2><h3 id=ruby注释>ruby注释</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>[内容]^(这是注释)
+</code></pre></td></tr></table></div></div><p><strong><ruby>内容<rt>这是注释</rt></ruby></strong></p><h3 id=分数>分数</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>[1]/[3]
+</code></pre></td></tr></table></div></div><p><sup>1</sup>/<sub>3</sub></p><h3 id=font-awesome图标库>Font Awesome图标库</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>芜湖起飞! :(fas fa-rocket fa-fw): 
+真开心! :(far fa-grin-tears):
+</code></pre></td></tr></table></div></div><p>芜湖起飞! <i class="fas fa-rocket fa-fw"></i></p><p>真开心! <i class="far fa-grin-tears"></i></p><h3 id=转义字符>转义字符</h3><p>特殊情况下，文章内容与Markdown基本/拓展语法冲突时，可以使用转义字符来帮助渲染出想要的内容。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-markdown data-lang=markdown>{?:}joy:
+</code></pre></td></tr></table></div></div><p>这将展示:joy:而不是😂。</p><h2 id=参考链接>参考链接</h2><ul><li><p><a href=https://hugoloveit.com/zh-cn/basic-markdown-syntax/ target=_blank rel="noopener noreffer">markdown基本语法</a></p></li><li><p><a href=https://hugoloveit.com/zh-cn/theme-documentation-content/ target=_blank rel="noopener noreffer">主题拓展语法</a></p></li></ul><section class=footnotes role=doc-endnotes><hr><ol><li id=fn:1 role=doc-endnote><p>这是一个数字脚注 <a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:2 role=doc-endnote><p>这是一个带标签的脚注 <a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></section></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>更新于 2020-11-30</span></div><div class=post-info-license></div></div><div class=post-info-line><div class=post-info-md></div><div class=post-info-share><span><a href=javascript:void(0); title="分享到 Twitter" data-sharer=twitter data-url=http://fmx789.github.io/posts/markdown-grammer.html/ data-title=Markdown语法 data-via=fanmingxian1 data-hashtags=Markdown,ruby,font-awesome><i class="fab fa-twitter fa-fw"></i></a><a href=javascript:void(0); title="分享到 Linkedin" data-sharer=linkedin data-url=http://fmx789.github.io/posts/markdown-grammer.html/><i class="fab fa-linkedin fa-fw"></i></a><a href=javascript:void(0); title="分享到 Reddit" data-sharer=reddit data-url=http://fmx789.github.io/posts/markdown-grammer.html/><i class="fab fa-reddit fa-fw"></i></a><a href=javascript:void(0); title="分享到 Instapaper" data-sharer=instapaper data-url=http://fmx789.github.io/posts/markdown-grammer.html/ data-title=Markdown语法 data-description=记录一下Markdown的语法，遗忘时可以参考。><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/instapaper.svg></i></a><a href=javascript:void(0); title="分享到 微博" data-sharer=weibo data-url=http://fmx789.github.io/posts/markdown-grammer.html/ data-title=Markdown语法><i class="fab fa-weibo fa-fw"></i></a></span></div></div></div><div class=post-info-more><section class=post-tags><i class="fas fa-tags fa-fw"></i>&nbsp;<a href=/tags/Markdown/>Markdown</a>,&nbsp;<a href=/tags/ruby/>ruby</a>,&nbsp;<a href=/tags/font-awesome/>font-awesome</a></section><section><span><a href=javascript:void(0); onclick=window.history.back();>返回</a></span>&nbsp;|&nbsp;<span><a href=/>主页</a></span></section></div><div class=post-nav><a href=/posts/Aliyun-Server-setup-Guide.html/ class=prev rel=prev title=阿里云服务器搭建指南><i class="fas fa-angle-left fa-fw"></i>阿里云服务器搭建指南</a>
+<a href=/posts/shortcode-grammer.html/ class=next rel=next title=Shortcode>Shortcode<i class="fas fa-angle-right fa-fw"></i></a></div></div><div id=comments><div id=valine class=comment></div><noscript>Please enable JavaScript to view the comments powered by <a href=https://valine.js.org/>Valine</a>.</noscript></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line>由 <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.78.1">Hugo</a> 强力驱动 | 主题 - <a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i>LoveIt</a></div><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2020</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/ target=_blank>KevinFan</a></span>&nbsp;|&nbsp;<span class=license><a rel=license href=https://creativecommons.org/licenses/by-nc-sa/4.0/ target=_blank>CC BY-NC-SA 4.0</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title=回到顶部><i class="fas fa-arrow-up fa-fw"></i></a><a href=# id=view-comments class=fixed-button title=查看评论><i class="fas fa-comment fa-fw"></i></a></div><link rel=stylesheet href=/lib/valine/valine.min.css><script type=text/javascript src=https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/twemoji@13.0.0/dist/twemoji.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js></script><script type=text/javascript>window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":20},"comment":{"valine":{"appId":"oq9NNk1DwTJJaueEju15zbDR-MdYXbMMI","appKey":"jYjACJVRDH9TCnRP0qoDtSTv","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"写下你想说的话吧","recordIP":true,"visitor":true}},"twemoji":true};</script><script type=text/javascript src=/js/theme.min.js></script><script type=text/javascript>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-77X4WRX4FZ',{'anonymize_ip':true});</script><script type=text/javascript src="https://www.googletagmanager.com/gtag/js?id=G-77X4WRX4FZ" async></script><script type=text/javascript src=/js/custom.js></script></body></html>
